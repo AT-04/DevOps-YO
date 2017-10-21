@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Yury Ortuño Calvo",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
 }
