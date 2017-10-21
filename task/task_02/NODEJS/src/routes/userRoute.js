@@ -2,6 +2,7 @@ const user = require ('../models/user');
 
 module.exports = function (app) {
   app.get('/users', (req, res) => {
+  	console.log('users');
 	user.getUsers((err,data)=>{
 		res.json(data);
 	});
@@ -12,5 +13,4 @@ module.exports = function (app) {
   		res.status(200).json(data);
   	});
   });
-
  }
